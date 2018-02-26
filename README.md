@@ -21,9 +21,17 @@ Place a GameObject (preferably a prefab) with the AudioManager component in at l
   * **StopFX** (*AudioClip* clip)
   * **ClearFx** (*AudioClip* clip)
 
-For music tracks preferably put the AudioClip you want to play on the AudioManager component.
+For music tracks preferably put the AudioClip you want to play on the AudioManager component preferably or manually use the **PlayMusic** method in a script.
+
+![AduioManager component](https://github.com/twyblade64/Unity-AudioManager/blob/master/Images/AudioManagerComponent.png?raw=true "AudioManager component")
 
 For sound effects, first load the AudioClips using **LoadFX** and use **PlayFX** whenever you want to play them.
+
+Alternatively, put them within the AudioManagerProxy and play them using **AudioManagerProxy.PlayClip**(*int* index).
+
+![AudioManagerProxy component](https://github.com/twyblade64/Unity-AudioManager/blob/master/Images/AudioManagerProxyComponent.png?raw=true "AudioManagerProxy component")
+
+![AudioManagerProxy use](https://github.com/twyblade64/Unity-AudioManager/blob/master/Images/AudioManagerProxyUse.png?raw=true "AudioManagerProxy use")
 
 ## Examples
 Included in the Assets/Examples folder, you can check three different examples:
