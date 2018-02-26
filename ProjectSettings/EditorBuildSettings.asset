@@ -4,4 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Examples/Scenes/01_SoundEffects.unity
+    guid: e3c52ce45a11f3d4db82d3936bfda178
+  - enabled: 1
+    path: Assets/Examples/Scenes/02_AudioManagerProxy.unity
+    guid: c0dc4e504a41c4b4a859b0d6c69f571f
+  - enabled: 1
+    path: Assets/Examples/Scenes/03_MusicA.unity
+    guid: bd9846bfa53ba8d439f8867b18b880fe
+  - enabled: 1
+    path: Assets/Examples/Scenes/03_MusicB.unity
+    guid: ed4963adaaa7e7a479c9c9485b269601
+  - enabled: 1
+    path: Assets/Examples/Scenes/03_MusicC.unity
+    guid: 142938e3a81d8064ca89f8259c9228a0
+  - enabled: 1
+    path: Assets/Examples/Scenes/03_MusicD.unity
+    guid: 44b94f33792ca9b4da0650e06d682f40

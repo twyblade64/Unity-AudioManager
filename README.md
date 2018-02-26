@@ -1,2 +1,2 @@
-# Unity-SoundManager
-Simple scene-persistent music and sound pooling.
+# Unity-AudioManager
+Simple scene-persistent music and audio pooling.
