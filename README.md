@@ -8,7 +8,7 @@ With the AudioManager component you can play music through multiple scenes and p
 When direct access to the AudioManager is not available, you can use the AudioManagerProxy instead, as in Unity's built-in UI system and animation events.
 
 ## How To Use
-Add the AudioManager folder to your project or download the repo and open it on Unity.
+Add the Assets/AudioManager folder to your project or download the repo and open it on Unity.
 
 Place a GameObject (preferably a prefab) with the AudioManager component in at least your starting scene to initialize the singleton reference. After that access using **AudioManager.instance** and any of the methods bellow:
   
@@ -24,6 +24,13 @@ Place a GameObject (preferably a prefab) with the AudioManager component in at l
 For music tracks preferably put the AudioClip you want to play on the AudioManager component.
 
 For sound effects, first load the AudioClips using **LoadFX** and use **PlayFX** whenever you want to play them.
+
+## Examples
+Included in the Assets/Examples folder, you can check three different examples:
+1. *01_SoundEffects*: An small demo with balls falling and playing a sound on OnCollisionEnter events.
+2. *02_AudioManagerProxy*: Multiple buttons using the Unity UI, each one playing a different sound on click.
+3. *03_Music*: Four different scenes showing the interactions with different music clips on the AudioManager.
+
 
 ## To Do
   * Add volume management for music and sounds.
