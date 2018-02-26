@@ -35,7 +35,7 @@ Alternatively, put them within the AudioManagerProxy and play them using **Audio
 
 ## Examples
 Included in the Assets/Examples folder, you can check three different examples:
-1. *01_SoundEffects*: An small demo with balls falling and playing a sound on OnCollisionEnter events.
+1. *01_SoundEffects*: A small demo with balls falling and playing a sound on OnCollisionEnter events.
 2. *02_AudioManagerProxy*: Multiple buttons using the Unity UI, each one playing a different sound on click.
 3. *03_Music*: Four different scenes showing the interactions with different music clips on the AudioManager.
 
